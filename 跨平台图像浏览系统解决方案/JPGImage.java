@@ -1,9 +1,9 @@
-package ¿çÆ½Ì¨Í¼Ïñä¯ÀÀÏµÍ³½â¾ö·½°¸;
+package è·¨å¹³å°å›¾åƒæµè§ˆç³»ç»Ÿè§£å†³æ–¹æ¡ˆ;
 
 class JPGImage extends Image{
 public void parseFile(String fileName) {
 	Matrix m = new Matrix();
-	imp.doPaint(m);;
-	System.out.println(fileName + ",¸ñÊ½ÎªJPG.");
+	imp.doPaint(m);
+	System.out.println(fileName + ",æ ¼å¼ä¸ºJPG.");
 }
 }
